@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>happymood</title>
+    <link rel="stylesheet" href="./assets/css/stylehappy.css"
+</head>
+<body>
+    <div id="header">
+        <img src="./assets/img/happy.jpg" alt="Happy img">
+        <h1 id="heading">HAPPY MOOD</h1>
+    </div>
+    <div class="Current-Courses">
+        <h2 id="sub-heading">Current Courses</h2>
+        <ul>
+            <li>CSE 451 - HTML</li>
+            <li>CSE 543 - Math</li>
+            <li>CSE 122 - Research</li>
+        </ul>
+    </div>
+    <div class="Hobbies">
+        <h2 id="sub-heading">Hobbies</h2>
+        <ul>
+            <li>Game</li>
+            <li>Music</li>
+            <li>Movies</li>
+        </ul>
+    </div>
+    <div class="Courses">
+        <h2 id="sub-heading">Courses</h2>
+        <table class="courses-table">
+            <tr>
+                <th class="t-center">Course Number</th>
+                <th class="t-center">Course Title</th>
+                <th class="t-center">Semester Taken</th>
+            </tr>
+            <tr>
+                <th colspan="3">For Credit</th>
+            </tr>
+            <tr class="background-table">
+                <th class="t-blackblue">6.813</th>
+                <td><strong>User Interface Design</strong></td>
+                <td><strong>Spring 2024</strong></td>
+            </tr>
+            <tr>
+                <th class="t-blackblue">6.034</th>
+                <td>Artificial Intelligence</td>
+                <td>Fall 2013</td>
+            </tr>
+            <tr class="background-table">
+                <th class="t-blackblue">6.006</th>
+                <td>Introduction to Algorithms</td>
+                <td>Fall 2013</td>
+            </tr>
+            <tr>
+                <th colspan="3">Listener</th>
+            </tr>
+            <tr class="background-table">
+                <th class="t-blackblue">6.867</th>
+                <td>Machine Learning</td>
+                <td>Fall 2013</td>
+            </tr>
+            <tr>
+                <th class="t-blackblue">6.830</th>
+                <td>Database Systems</td>
+                <td>Fall 2012</td>
+            </tr>
+        </table>
+    </div>
+    <div id="Submit">
+        <h2 class="sub-heading">Submit Information</h2>
+        <form action>
+            <table class="infor">
+                <tr>
+                    <td>
+                        <label for="full-name">Full-name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="full-name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="male" id="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="female" id="female">
+                        <label for="male">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobbies</td>
+                    <td>
+                        <input type="checkbox" name="music" id="music">
+                        <label for="music">Music</label>
+                        <input type="checkbox" name="game" id="game">
+                        <label for="game">Game</label>
+                        <input type="checkbox" name="movies" id="movies">
+                        <label for="movies">Movies</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of birth</td>
+                    <td>
+                        <input type="date" name="birthday" id="birthday">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td>
+                        <select name="country" id="country">
+                            <option value="hn">Hà Nội</option>
+                            <option value="hcm">Hồ Chí Minh</option>
+                            <option value="bg">Bắc Giang</option>
+                            <option value="hd">Hải Dương</option>
+                            <option value="th">Thanh Hóa</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Picture</td>
+                    <td>
+                        <input type="file" name="image" id="image">
+                        <input type="submit" value="submit">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" name="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="passwork">Password</label>
+                    </td>
+                    <td>
+                        <input type="passwork" id="passwork" name="passwork">
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="3">
+                        <label for="favourite-word">Favorite-work</label>
+                    </td>
+                    <td>
+                        <textarea name="favourite-word" id="favourite-word"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <a href="./index.html">Back</a>
+</body>
+</html>

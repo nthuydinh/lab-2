@@ -1,0 +1,27 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+body {
+    background-color: rgb(187, 209, 249);
+    font-size: 22px;
+}
+#header {
+    text-align: center;
+}
+#header img {
+    max-height: 500px;
+}
+#header h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 30px;
+}
+.courses-table, .courses-table td, .courses-table th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.background-table {
+    background-color: #f7f2f2;
+}

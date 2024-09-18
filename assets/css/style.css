@@ -1,0 +1,27 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: #595547;
+}
+.t-yellow strong {
+    color: yellow;
+}
+.t-yellow {
+    border-bottom: 1px solid white;
+    padding-bottom: 17px;
+}
+h1, h2 {
+    color: #9FC2F8;
+}
+#heading {
+    font-size: 53.5px;
+}
+.f-italic {
+    font-style: italic;
+}
+.sad-image, .happy-image {
+    height: 300px;
+}
+a {
+    color: red;
+}
